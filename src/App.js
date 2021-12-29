@@ -1,5 +1,5 @@
 
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { BrowserRouter as Router , Route, Routes } from 'react-router-dom'
 import Header from "./components/Header"
 import Feedbacklist from "./components/Feedbacklist"
 import FeedbackStats from "./components/FeedbackStats"
@@ -7,6 +7,7 @@ import FeedbackForm from "./components/FeedbackForm"
 import About from './pages/About'
 import { FeedbackProvider } from './context/FeedbackContext'
 import AboutIconLink from './components/AboutIconLink'
+import React from 'react'
 // import Card from "./components/shared/Card"
 
 function App(){
@@ -16,17 +17,15 @@ function App(){
         <Router>
         <Header />
         <div className="container">
-            <Routes>
+            <Routes>                      
                 <Route exact path='/' element={
-                <>
+                <React.Fragment>
                     <FeedbackForm/>
                     <FeedbackStats/>
                     <Feedbacklist/>    
-                </>
+                </React.Fragment>
             }>
-                    
                     </Route>
-
                     <Route path='/about' element={<About/>}></Route>
             </Routes>
             <AboutIconLink />
@@ -35,7 +34,7 @@ function App(){
             </FeedbackProvider>
     )
 }
-export default App
+export default App;
 
 // <Header bgColor='red' textColor="blue"/>
 
