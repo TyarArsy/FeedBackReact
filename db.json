@@ -1,0 +1,54 @@
+{
+  "feedback": [
+    {
+      "id": 1,
+      "rating": 10,
+      "text": "Ini adalah contoh ulasan yang datang dari backend"
+    },
+    {
+      "id": 2,
+      "rating": 7,
+      "text": "Ini adalah contoh ulasan yang datang dari backend"
+    },
+    {
+      "id": 3,
+      "rating": 9,
+      "text": "Ini adalah contoh ulasan yang datang dari backend"
+    },
+    {
+      "id": 4,
+      "rating": 5,
+      "text": "Ini adalah contoh ulasan yang datang dari backend"
+    },
+    {
+      "id": 5,
+      "rating": 6,
+      "text": "Ini adalah contoh ulasan yang datang dari backend"
+    },
+    {
+      "id": 6,
+      "rating": 8,
+      "text": "Ini adalah contoh ulasan yang datang dari backend"
+    },
+    {
+      "id": 7,
+      "rating": 9,
+      "text": "Ini adalah contoh ulasan yang datang dari backend"
+    },
+    {
+      "id": 8,
+      "rating": 9,
+      "text": "Ini adalah contoh ulasan yang datang dari backend"
+    },
+    {
+      "id": 9,
+      "rating": 10,
+      "text": "Ini adalah contoh ulasan yang datang dari backend"
+    },
+    {
+      "text": "Ini adalah update ulasan terbaru ",
+      "rating": 9,
+      "id": 10
+    }
+  ]
+}
